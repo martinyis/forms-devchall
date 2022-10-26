@@ -13,7 +13,7 @@ const labelColor = function (e, labels) {
   if (e.target !== clicked) {
     this[1].style.color = "black";
   }
-};
+}; 
 
 //Calling listeners
 inputFoc.addEventListener("click", changeColor.bind([inputFoc, labelFoc]));
